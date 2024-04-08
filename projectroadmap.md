@@ -1,10 +1,10 @@
 # Sprint 1:
 - [x] Get project topic approved
-- [ ] Create Github account and join ksu-is
-- [ ] Allow joint ownership of repository
-- [ ] Create readme.md file
-- [ ] Create projectroadmap.md file
-- [ ] Find repositories similar to project to help guide us in the right direction
+- [x] Create Github account and join ksu-is
+- [x] Allow joint ownership of repository
+- [x] Create readme.md file
+- [x] Create projectroadmap.md file
+- [x] Find repositories similar to project to help guide us in the right direction
 # Sprint 2:
 - [ ] Start coding project
 - [ ] Post updates in Github for professors to see
