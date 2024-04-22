@@ -3,9 +3,9 @@ import time
 import random
 pygame.font.init()
 
-WIDTH, HEIGHT = 1000, 800
+WIDTH,HEIGHT = 1280, 854
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Space Escape")
+pygame.display.set_caption("Spaceship Escape")
 
 BG = pygame.transform.scale(pygame.image.load("space image.jpeg"), (WIDTH, HEIGHT))
 
