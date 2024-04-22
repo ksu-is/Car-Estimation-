@@ -7,7 +7,7 @@ WIDTH,HEIGHT = 1280, 854
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Spaceship Escape")
 
-BG = pygame.transform.scale(pygame.image.load("space image.jpeg"), (WIDTH, HEIGHT))
+BG = pygame.transform.scale(pygame.image.load("space picture.jpg"), (WIDTH, HEIGHT))
 
 PLAYER_WIDTH = 40
 PLAYER_HEIGHT = 60
