@@ -17,7 +17,7 @@ STAR_WIDTH = 10
 STAR_HEIGHT = 20
 STAR_VEL = 3
 
-FONT = pygame.font.SysFont("arial", 20)
+FONT = pygame.font.SysFont("arial", 40)
 
 
 def draw(player, elapsed_time, stars):
@@ -50,7 +50,7 @@ def main():
     hit = False
 
     while run:
-        star_count += clock.tick(70)
+        star_count += clock.tick(80)
         elapsed_time = time.time() - start_time
 
         if star_count > star_add_increment:
@@ -84,7 +84,7 @@ def main():
                 break
 
         if hit:
-            lost_text = FONT.render("You Lost!", 1, "white")
+            lost_text = FONT.render("You Got Hit, Try Again!", 1, "yellow")
             WIN.blit(lost_text, (WIDTH/2 - lost_text.get_width()/2, HEIGHT/2 - lost_text.get_height()/2))
             pygame.display.update()
             pygame.time.delay(4000)
