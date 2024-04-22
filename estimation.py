@@ -17,7 +17,7 @@ STAR_WIDTH = 10
 STAR_HEIGHT = 20
 STAR_VEL = 3
 
-FONT = pygame.font.SysFont("comicsans", 30)
+FONT = pygame.font.SysFont("arial", 20)
 
 
 def draw(player, elapsed_time, stars):
